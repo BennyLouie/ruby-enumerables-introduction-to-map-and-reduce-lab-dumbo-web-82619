@@ -52,7 +52,7 @@ def reduce_to_all_true(source_array)
     else 
       return false 
     end 
-    if i == (source_array.size + 1)
+    if i == (source_array.size - 1)
       return true
     end
   end

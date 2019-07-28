@@ -46,19 +46,15 @@ end
   
 def reduce_to_all_true(source_array)
   i = 0
-  true_array = []
   while i < source_array.size do
     if source_array[i] == true
-      true_array.push(source_array[i])
       i += 1 
-    end
-    if true_array.size == source_array.size
-      return true
-    else
-      return false
-    end
-  end
-end
+    else 
+      return false 
+    end 
+    if i 
+      
+    
   
       
       

@@ -52,7 +52,11 @@ def reduce_to_all_true(source_array)
     end
     if source_array[i] == true 
       return true
-    else return 
+    else 
+      return false
+    end
+  end
+end
   
       
       

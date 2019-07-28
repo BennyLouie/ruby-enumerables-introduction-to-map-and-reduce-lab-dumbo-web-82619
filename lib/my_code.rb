@@ -43,20 +43,17 @@ def reduce_to_total(source_array, starting_point = 0)
   end
   return running_total
 end
-  
+
 def reduce_to_all_true(source_array)
   i = 0
   while i < source_array.size do
-    i += 1 
     if source_array[i] == false 
       return false
-    elsif source_array[i] == source_array[-1]
-      return true 
     end
-  end
+     i += 1 
+  end 
+  true
 end
-
-
 
       
     

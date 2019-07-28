@@ -50,7 +50,6 @@ def reduce_to_total(source_array, starting_point)
   end
   return running_point
 end
-end
   
   
   

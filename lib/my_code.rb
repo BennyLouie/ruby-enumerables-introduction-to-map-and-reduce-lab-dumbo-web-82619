@@ -51,7 +51,8 @@ def reduce_to_all_true(source_array)
     if source_array[i] == false 
       return false
     elsif source_array[i] == source_array[-1]
-    return true 
+      return true 
+   end 
   end 
 end 
 
